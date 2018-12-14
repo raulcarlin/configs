@@ -1,6 +1,10 @@
 server:
   port: 8079
 eureka:
+  datacenter: game
+  enviroment: dev
+  server:
+    enableSelfPreservation: false
   instance:
     hostname: discovery-tertiary
   client:

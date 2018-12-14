@@ -1,6 +1,10 @@
 server:
   port: 8077
 eureka:
+  datacenter: game
+  enviroment: dev
+  server:
+    enableSelfPreservation: false
   instance:
     hostname: discovery-primary
   client:
