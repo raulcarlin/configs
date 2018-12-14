@@ -1,0 +1,10 @@
+server:
+  port: 8077
+eureka:
+  instance:
+    hostname: discovery-primary
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://discovery-secondary:8078/eureka/,http://discovery-tertiary:8079/eureka/
