@@ -3,4 +3,4 @@ eureka:
     serviceUrl:
       defaultZone: http://discovery-primary:8077/eureka/,http://discovery-secondary:8078/eureka/,http://discovery-tertiary:8079/eureka/
 server:
-  port: 8080
+  port: 8081
