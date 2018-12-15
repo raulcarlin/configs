@@ -1,5 +1,6 @@
 zuul:
   prefix: /api
+  ignoredServices: 'config-server'
 eureka:
   client:
     serviceUrl:
